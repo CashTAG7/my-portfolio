@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import projects from "./ProjectData";
 import cover1 from "../project/assets/projectAssets/menu.png";
 import cover2 from "../project/assets/image1.jpg";
 import cover3 from "../project/assets/image2.jpg";
@@ -23,23 +24,26 @@ type ProjectData = {
   fullDescription: string;
 };
 
-async function getProjects() {
-  const apiUrl = process.env.API_URL;
-  const res = await fetch(`${apiUrl}/projects/`, {
-    next: {
-      revalidate: 60,
-    },
-  });
+// json-server --watch --port 4000 ./_data/db.json
+// async function getProjects() {
+//   const res = await fetch(`http://localhost:4000/projects/`, {
+//     next: {
+//       revalidate: 60,
+//     },
+//   });
 
-  return res.json();
-}
+//   return res.json();
+// }
 
-export default async function Cards() {
-  const projects = await getProjects();
+// export default async function Cards() {
+//   const projects = await getProjects();
+//   return (
+
+export default function Cards() {
   return (
     <div className="-z-50">
       {" "}
-      {projects.map((project: ProjectData, index: number) => {
+      {projects.map((project, index) => {
         return (
           <Link
             key={project.id}
@@ -70,5 +74,3 @@ export default async function Cards() {
     </div>
   );
 }
-
-// json-server --watch --port 4000 ./_data/db.json

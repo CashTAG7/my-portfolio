@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Show the button when the user scrolls down
   const toggleVisibility = () => {
     if (window.scrollY > 300) {
       setIsVisible(true);
