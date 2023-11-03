@@ -32,7 +32,7 @@ const VSiteButton = () => {
       <Magnet>
         <Link
           className="mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 2xl:mx-24 mb-8 btn btn-neutral bg-dark-gray dark:bg-lighter-gray text-lighter-gray dark:text-dark-gray hover:bg-lighter-gray dark:hover:bg-dark-gray hover:text-dark-gray font-medium dark:hover:text-lighter-gray dark:hover:border-lighter-gray"
-          href={"#"}
+          href={"https://my-portfolio-chi-ten-76.vercel.app/"}
         >
           <span className="mx-auto text-lg">View Site &gt;&gt;</span>
         </Link>

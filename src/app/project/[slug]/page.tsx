@@ -65,7 +65,7 @@ export default function Page({ params }: { params: { slug: number } }) {
           <CoverImage id={params.slug} />
           <div className="md:flex dark:text-lighter-gray">
             <div className="md:w-1/2 mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 2xl:mx-24 md:my-8">
-              <table className="table">
+              <table className="table text-darker-gray dark:text-lighter-gray">
                 <tbody>
                   <tr>
                     <th className="text-lg">Date</th>
