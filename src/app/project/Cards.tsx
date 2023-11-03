@@ -59,7 +59,7 @@ export default function Cards() {
                 height={200}
               />
             </figure>
-            <div className="card-body my-auto text-dark-gray dark:text-lighter-gray">
+            <div className="card-body my-auto text-darker-gray dark:text-lighter-gray">
               <span className="badge badge-sm absolute top-1 right-1 rounded-md py-3 bg-light-gray dark:bg-dark-gray dark:text-lighter-gray dark:border-dark-gray">
                 <CgCalendarDates size={20} /> {project.date}
               </span>
