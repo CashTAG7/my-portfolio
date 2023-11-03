@@ -94,7 +94,7 @@ export default function Page({ params }: { params: { slug: number } }) {
                 </tbody>
               </table>
             </div>
-            <p className="mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 2xl:mx-24 md:w-1/2 my-8 text-lg">
+            <p className="mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 2xl:mx-24 md:w-1/2 my-8 text-lg text-darker-gray dark:text-lighter-gray">
               {projects[params.slug - 1].fullDescription}
             </p>
           </div>

@@ -14,7 +14,7 @@ export default function About() {
         <div className="md:flex">
           <OwnerImage />
           <div className="lg:my-auto md:w-2/3">
-            <p className="mx-4 sm:mx-8 md:mx-0 lg:mx-16 xl:mx-20 2xl:mx-24 my-8 md:my-0 text-lg dark:text-lighter-gray">
+            <p className="mx-4 sm:mx-8 md:mx-0 lg:mx-16 xl:mx-20 2xl:mx-24 my-8 md:my-0 text-lg text-darker-gray dark:text-lighter-gray">
               Hey there, I&#39;m Md. Noman Ebeny Shahid, and I&#39;m delighted
               to welcome you to my digital space. <br /> <br />
               <span className="font-semibold text-xl">Who Am I?</span> <br />

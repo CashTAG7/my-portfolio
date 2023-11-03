@@ -21,7 +21,7 @@ function ContactForm() {
       onSubmit={handleSubmit}
       className="w-full md:w-2/3"
     >
-      <div className="flex flex-col mb-3 dark:text-lighter-gray">
+      <div className="flex flex-col mb-3 text-darker-gray dark:text-lighter-gray">
         <label htmlFor="name">Name</label>
         <input
           type="text"
@@ -32,7 +32,7 @@ function ContactForm() {
           required
         />
       </div>
-      <div className="flex flex-col mb-3 dark:text-lighter-gray">
+      <div className="flex flex-col mb-3 text-darker-gray dark:text-lighter-gray">
         <label htmlFor="email">Email</label>
         <input
           type="email"

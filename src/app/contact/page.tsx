@@ -14,7 +14,7 @@ export default function Contact() {
           <ContactForm />
           <MediaLinks />
         </div>
-        <p className="mx-8 py-8 text-center text-xl dark:text-lighter-gray">
+        <p className="mx-8 py-8 text-center text-xl text-darker-gray dark:text-lighter-gray">
           Feel free to reach me any time...
         </p>
       </div>
