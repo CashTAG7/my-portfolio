@@ -44,7 +44,7 @@ function ContactForm() {
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
-      <div className="flex flex-col mb-3 dark:text-lighter-gray">
+      <div className="flex flex-col mb-3 text-darker-gray dark:text-lighter-gray">
         <label htmlFor="message">Message</label>
         <textarea
           rows={4}
