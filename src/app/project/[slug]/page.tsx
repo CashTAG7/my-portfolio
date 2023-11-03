@@ -3,7 +3,6 @@ import CoverImage from "./CoverImage";
 import VSiteButton from "@/app/project/[slug]/VSiteButton";
 import ProjectImages from "./ProjectImages";
 
-import { IoArrowBack } from "react-icons/io5";
 import BackToTopButton from "./BackToTopButton";
 
 type ProjectData = {
