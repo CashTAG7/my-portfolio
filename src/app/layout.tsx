@@ -21,7 +21,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} dark:bg-darker-gray`}>
+      <body className={`${montserrat.className} bg-pure-white dark:bg-darker-gray`}>
         <Navbar />
         {children}
       </body>
