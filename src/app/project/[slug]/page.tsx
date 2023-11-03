@@ -18,7 +18,8 @@ type ProjectData = {
 };
 
 async function getProject(slug: string | number) {
-  const res = await fetch("http://localhost:4000/projects/" + slug, {
+  const apiUrl = process.env.API_URL;
+  const res = await fetch(`${apiUrl}/projects/${slug}`, {
     next: {
       revalidate: 60,
     },
