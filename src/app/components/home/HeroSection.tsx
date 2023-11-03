@@ -5,7 +5,7 @@ import CTAButtonAbout from "./CTAButtonAbout";
 
 const HeroSection = () => {
   return (
-    <div className="bg-pure-white dark:bg-darker-gray max-h-screen flex-col text-center text-dark-gray mt-32 mb-8 md:mb-12">
+    <div className="bg-pure-white dark:bg-darker-gray max-h-screen flex-col text-center text-dark-gray pt-32 mb-8 md:mb-12">
       <div className="text-4xl text-dark-gray dark:text-lighter-gray tracking-widest font-semibold mb-8">
         <span className="">Building the Web,</span> <br /> One Line at a Time
       </div>
