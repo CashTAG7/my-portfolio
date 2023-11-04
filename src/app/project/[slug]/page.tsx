@@ -47,7 +47,7 @@ export default function Page({ params }: { params: { slug: number } }) {
         <div className="pt-12 min-h-screen">
           <div className="mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 2xl:mx-24 pt-8">
             <Link
-              className="bg-dark-gray dark:bg-light-gray text-lighter-gray dark:text-dark-gray font-bold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline"
+              className="bg-dark-gray dark:bg-light-gray text-lighter-gray dark:text-dark-gray font-bold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline text-center mx-auto my-auto"
               href={"/project"}
             >
               &larr;

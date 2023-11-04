@@ -34,7 +34,7 @@ const WAChatButton = () => {
           dark:hover:bg-dark-gray
           dark:hover:text-lighter-gray dark:hover:border-lighter-gray"
         >
-          <span className="mx-auto text-lg">Reach Me Here</span>
+          <span className="mx-auto text-lg">Reach Me Here &gt;&gt;</span>
         </Link>
       </Magnet>
     </motion.div>
